@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel="stylesheet" type="text/css" href="css/design.css" />
+  <title>Apple Keyboard</title>
+  
+  <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <script src="js/functions.js"></script>
+</head>
+<body>
+
+<div class="center">
+		<h1>Pure CSS, JS Calculator</h1>
+		<a href="https://github.com/guuibayer/simple-calculator" target="_blank"><i class="fa fa-github"></i></a>
+		<form name="calculator">
+			<input type="button" id="clear" class="btn other" value="C">
+			<input type="text" id="display">
+				<br>
+			<input type="button" class="btn number" value="7" onclick="get(this.value);">
+			<input type="button" class="btn number" value="8" onclick="get(this.value);">
+			<input type="button" class="btn number" value="9" onclick="get(this.value);">
+			<input type="button" class="btn operator" value="+" onclick="get(this.value);">
+				<br>
+			<input type="button" class="btn number" value="4" onclick="get(this.value);">
+			<input type="button" class="btn number" value="5" onclick="get(this.value);">
+			<input type="button" class="btn number" value="6" onclick="get(this.value);">
+			<input type="button" class="btn operator" value="*" onclick="get(this.value);">
+				<br>
+			<input type="button" class="btn number" value="1" onclick="get(this.value);">
+			<input type="button" class="btn number" value="2" onclick="get(this.value);">
+			<input type="button" class="btn number" value="3" onclick="get(this.value);">
+			<input type="button" class="btn operator" value="-" onclick="get(this.value);">
+				<br>
+			<input type="button" class="btn number" value="0" onclick="get(this.value);">
+			<input type="button" class="btn operator" value="." onclick="get(this.value);">
+			<input type="button" class="btn operator" value="/" onclick="get(this.value);">			
+			<input type="button" class="btn other" value="=" onclick="calculates();">
+		</form>
+	</div>
+
+</body>
+</html>    
